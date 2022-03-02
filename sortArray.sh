@@ -12,8 +12,6 @@ read -p "enter g " g;
 echo "Original Array: "
 array=($a $b $c $d $e $f $g);
 
-echo "original order of the array: "
-
 echo ${array[*]};
 
 for ((i = 0; i<7; i++))
