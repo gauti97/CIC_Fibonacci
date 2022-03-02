@@ -1,8 +1,18 @@
 #!/bin/bash
 
-echo "original order of the array: "
+echo "Enter elements of array"
+read -p "enter a " a;
+read -p "enter b " b;
+read -p "enter c " c;
+read -p "enter d " d;
+read -p "enter e " e;
+read -p "enter f " f;
+read -p "enter g " g;
 
-array=(7 5 3 6 2 9 10 8)
+echo "Original Array: "
+array=($a $b $c $d $e $f $g);
+
+echo "original order of the array: "
 
 echo ${array[*]};
 
